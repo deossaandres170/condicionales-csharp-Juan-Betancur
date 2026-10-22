@@ -1,0 +1,55 @@
+Nombre completo: Juan Andrés Betancur Deossa
+
+Número de ficha: 3412768
+
+Programa de formación: Análisis y desarrollo de software
+
+---
+
+## Descripción del Proyecto
+Este repositorio contiene la solución a 30 problemas de lógica de programación en C#, implementando la estructura condicional más adecuada para cada caso (`if`, `if-else`, `if-else if`, `switch` / expresiones `switch`, operador ternario `? :`). Todos los proyectos están agrupados en una única solución de .NET (`Condicionales.sln`).
+
+---
+
+## Índice de Problemas
+
+| # | Título del Problema | Estructura Elegida | Proyecto |
+|---|---|---|---|
+| 01 | Registro electoral | `if-else` | [Ver Problema 01](./Problema01) |
+| 02 | Tarifa de envío por peso | Escalera `if-else if` | [Ver Problema 02](./Problema02) |
+| 03 | Menú de cajero automático | `switch` | [Ver Problema 03](./Problema03) |
+| 04 | Alerta de batería | `if` simple | [Ver Problema 04](./Problema04) |
+| 05 | El mayor de dos números | Operador ternario (`? :`) | [Ver Problema 05](./Problema05) |
+| 06 | Piedra, papel o tijera | `if-else if-else` anidado | [Ver Problema 06](./Problema06) |
+| 07 | Signo de un número | `if-else if-else` | [Ver Problema 07](./Problema07) |
+| 08 | Vocal o consonante | `switch` con agrupación de casos | [Ver Problema 08](./Problema08) |
+| 09 | Año bisiesto | `if-else` con operadores lógicos (`&&`, `\|\|`) | [Ver Problema 09](./Problema09) |
+| 10 | Analizador de datos recibidos | Expresión `switch` con patrones de tipo | [Ver Problema 10](./Problema10) |
+| 11 | Semáforo inteligente | `enum` con `switch` | [Ver Problema 11](./Problema11) |
+| 12 | Aprobación de crédito | `if-else` anidados | [Ver Problema 12](./Problema12) |
+| 13 | Códigos de país | Expresión `switch` | [Ver Problema 13](./Problema13) |
+| 14 | Estado del aprendiz | Operador ternario (`? :`) | [Ver Problema 14](./Problema14) |
+| 15 | Índice de masa corporal | Escalera `if-else if` | [Ver Problema 15](./Problema15) |
+| 16 | Ubicación de un dron | Condicionales con operadores lógicos | [Ver Problema 16](./Problema16) |
+| 17 | Control de un reproductor | Instrucción `switch` | [Ver Problema 17](./Problema17) |
+| 18 | Montaña rusa | `if-else` con operadores lógicos combinados | [Ver Problema 18](./Problema18) |
+| 19 | Radar de velocidad | Escalera `if-else if` | [Ver Problema 19](./Problema19) |
+| 20 | Días de cada mes | Expresión `switch` con patrones múltiples | [Ver Problema 20](./Problema20) |
+| 21 | Carrito de compras | Operador ternario (`? :`) | [Ver Problema 21](./Problema21) |
+| 22 | Calculadora básica | Expresión `switch` con lanzamiento de excepciones | [Ver Problema 22](./Problema22) |
+| 23 | Inicio de sesión | Condicionales anidados (`if-else`) | [Ver Problema 23](./Problema23) |
+| 24 | ¿Día hábil? | Expresión `switch` con rangos (`>= 1 and <= 5`) | [Ver Problema 24](./Problema24) |
+| 25 | Calidad del aire | Escalera `if-else if` | [Ver Problema 25](./Problema25) |
+| 26 | Peaje | Expresión `switch` con manejo de excepciones | [Ver Problema 26](./Problema26) |
+| 27 | Taquilla de cine | Condicionales anidados (`if-else if`) | [Ver Problema 27](./Problema27) |
+| 28 | Descuento por compra | `if-else if` con lógica booleana adicional | [Ver Problema 28](./Problema28) |
+| 29 | Control de acceso a la sede | Expresión `switch` con guardas condicionales (`when`) | [Ver Problema 29](./Problema29) |
+| 30 | Boletín de calificaciones | Integrador (`if-else if` y expresiones `switch`) | [Ver Problema 30](./Problema30) |
+
+---
+
+## Instrucciones de Ejecución
+
+Para compilar toda la solución:
+```bash
+dotnet build
